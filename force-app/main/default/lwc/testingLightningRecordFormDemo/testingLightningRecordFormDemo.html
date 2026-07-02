@@ -1,0 +1,20 @@
+<template>
+    <lightning-card  title="Lightning Record Form Demo">
+        <div class="slds-m-around_medium">
+            <lightning-record-form
+            record-id={recordId}
+            object-api-name = {objectApiName}
+            fields={fields}></lightning-record-form>
+        </div>
+    </lightning-card>
+    <lightning-card title="Lightning Record Form Demo with Other Attributes">
+        <div class="slds-m-around_medium">
+            <lightning-record-form
+            record-id={recordId}
+            object-api-name={objectApiName}
+            columns = "2"
+            mode="edit"
+            layout-type="Full"></lightning-record-form>
+        </div>
+    </lightning-card>
+</template>

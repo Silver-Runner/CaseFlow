@@ -1,0 +1,23 @@
+.lightning-studio{
+	color : blue;
+}
+
+.form{
+	display: flex;
+    flex-direction: row;
+    align-items: center
+}
+
+.supportclass{
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+}
+
+.error{
+	color: red;
+}
+
+.slds-m-left_x-small{
+	margin-top: 21px;
+}

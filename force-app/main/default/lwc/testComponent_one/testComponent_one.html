@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="Two Way DataBinding Demo">
+        <div class="slds-m-around_medium">
+            <b> Hey, I am The Fist Lwc</b>
+            <div class="slds-p-around_medium lgc-bg">
+                <lightning-input type='text' lable='Employee Name' placeholder='Enter name here' onchange={changeHandler}></lightning-input>
+            </div>
+            <b>The Employee Name is :- {empName}</b>
+        </div>
+    </lightning-card>
+</template>

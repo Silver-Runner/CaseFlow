@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Iterator Demo Component">
+        <div class="slds-m-around_medium">
+            <template iterator:emp={empDetails}>
+                <div if:true={emp.first} key={emp.value.id} class="firstclass"></div>
+                <li key={emp.value.Id}> {emp.value.Id}, {emp.value.Name}, {emp.value.Address}
+                <div if:true={emp.last} key={emp.value.id} class="lastclass"></div>
+                </li>
+            </template>
+        </div>
+    </lightning-card>
+</template>

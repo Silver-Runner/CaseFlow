@@ -1,0 +1,13 @@
+<template>
+    <template if:true={isVisible}>
+        <div class="slds-m-vertical_medium">
+            <p>This is the value from parent: {childVal}</p>
+            <lightning-slider label="Volume" value={childVal}></lightning-slider>
+        </div>
+    </template>
+    <template if:false={isVisible}>
+        <div class="slds-m-vertical_medium">
+            <p>The Entered value  must be between 1 to 100</p>
+        </div>
+    </template>
+</template>

@@ -1,0 +1,33 @@
+<template>
+    <lightning-card title="Pagination by using data table">
+        <div class="slds-m-around_medium">
+            <div style="height: 300px;">
+                <lightning-datatable
+                    key-field="id"
+                    data={Opportunities}
+                    columns={columns}>
+                </lightning-datatable>
+            </div>
+        </div>
+        <br>
+        <div align="center">
+            <lightning-button
+                label="Prev Opties"
+                title="Non-primary action"
+                onclick={prevHandler}
+                class="slds-m-left_x-small"
+                disabled={disablePrev}
+            >
+            </lightning-button>
+            <span> Page: {pageNumber} of {total_Pages} pages </span>
+            <lightning-button
+                label="Next Opties"
+                title="Non-primary action"
+                onclick={nextHandler}
+                class="slds-m-left_x-small"
+                disabled={disableNext}
+            >
+            </lightning-button>
+        </div>
+    </lightning-card>
+</template>

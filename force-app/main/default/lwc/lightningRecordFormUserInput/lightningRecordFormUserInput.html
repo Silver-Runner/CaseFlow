@@ -1,0 +1,23 @@
+<template>
+    <lightning-card title="User Input Record Form">
+        <div class="slds-m-around_medium supportclass">
+            <div class="form">
+                <lightning-input type="text" label="Enter the Account Id:" onchange={changeHandler}></lightning-input>
+                <lightning-button label="Show Data" title="Non-primary action" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+            </div>
+            <span if:true={error} class="error">{error}</span>
+        </div>
+        <templet if:true={showData}>
+            <div class="slds-m-around_medium">
+                <b>Account Data</b>
+                <br/>
+                <lightning-record-form
+                record-id={recordId}
+                object-api-name={objectApiName}
+                columns = "2"
+                mode="edit"
+                layout-type="Full"></lightning-record-form>
+            </div>
+        </templet>
+    </lightning-card> 
+</template>

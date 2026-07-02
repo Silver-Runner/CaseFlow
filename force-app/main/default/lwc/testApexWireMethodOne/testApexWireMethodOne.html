@@ -1,0 +1,9 @@
+<template>
+    <lightning-card title="Apex Method to Property Component">
+        <div class="slds-m-around_medium">
+            <template for:each={allOppties.data} for:item="eachOppty">
+                <li key={eachOppty.Id}> {eachOppty.Id}, {eachOppty.Name}, {eachOppty.StageName}</li>
+            </template>
+        </div>
+    </lightning-card>
+</template>

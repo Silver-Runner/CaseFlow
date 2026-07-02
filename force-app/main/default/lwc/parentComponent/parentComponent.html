@@ -1,0 +1,8 @@
+<template>
+    <lightning-card title="Parent Component">
+        <div class="slds-m-around_medium">
+            <lightning-input type="text" label="Enter the slider value :"  onchange={changeHandler} maxlength="3"></lightning-input>
+            <c-child-component val={pvalue}></c-child-component>
+        </div>
+    </lightning-card>
+</template>
