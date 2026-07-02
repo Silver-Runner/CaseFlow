@@ -1,18 +1,81 @@
-# Salesforce DX Project: Next Steps
+## CaseFlow
+A Modern Salesforce Case Management and Service Automation application designed to streaming customer support operation through intelligent automation, scalable Apex development, and lightning web component.
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+## Overview
+CaseFlow is a Open-source Salesforce application built for learning and demonstrating salesforce development best Practise.
 
-## How Do You Plan to Deploy Your Changes?
+## Feature
+- Case Creation and Management
+- Automated Case Assignment
+- Record Triggered Flow
+- Screen Flows
+- Apex Classes and Triggers
+- Custom MetaData Types
+- Custom Settings
+- Validation Rules
+- Permission
+- Lightning Web Components(LWC)
+- REST API Integration
+- Comprehensive Test Classes
+- Reports and Dashboards
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+## Tech Stack
+- Salesforce Platform
+- Apex
+- LWC
+- Salesforce Flows
+- SOQL
+- Salesforce CLI
+- Git
+- GitHub
+- VS Code
 
-## Configure Your Salesforce DX Project
+## Project Structure
+CaseFlow
+|
+|-Force-App
+|-manifest
+|-docs
+|-screenshots
+|-README.md
+|-sfdx-project.json
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+## Learning Objectives
+- salesforce Administration
+- Apex Development
+- Flow Automation
+- Lightning Web Components
+- Integration Patterns
+- Security Best Practices
+- Test-Driven Development
+- Git Version Control
 
-## Read All About It
+## Project Status
+Current Version: v1.0 (In Development)
+This Project is actively being developed and will be added regularly.
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+## RoadMap
+
+### Phase 1
+- Data Model
+- Validation Rules
+- Case Automation
+- Apex Trigger
+- Test Classes
+
+### Phase 2
+- Lightning Web Compoenent
+- REST API Integration
+- Dashboard Compoenent
+
+### Phase 3
+- AI-powered Case Classification
+- SLA Tracking
+- Email Notification
+- Analytics Dashboard
+
+## Visiion
+The goal CaseFlow is to simulate a production-ready salesforce  service application while following clean architecture, maintainable code, and salesforce development best practices.
+
+Rishabh Mishra
+Salesforce Developer
